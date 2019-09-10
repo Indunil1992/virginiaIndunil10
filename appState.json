@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "virginiaIndunil10/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed api\"});\n}",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed api test1\"});\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -98,7 +98,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1568102458498
+    "lastSave": 1568102714015
   },
   "VCS_STATE": {
     "provider": "GitHub",
