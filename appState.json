@@ -1,0 +1,101 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "e122cdb8-3322-4259-a8c6-94817c28b273": {
+        "id": "e122cdb8-3322-4259-a8c6-94817c28b273",
+        "parent": null,
+        "name": "virginiaIndunil10",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "48d388bd-c2f3-48af-bce2-11f879f57dcd"
+        ],
+        "isRemovable": false,
+        "filePath": "virginiaIndunil10"
+      },
+      "48d388bd-c2f3-48af-bce2-11f879f57dcd": {
+        "id": "48d388bd-c2f3-48af-bce2-11f879f57dcd",
+        "parent": "e122cdb8-3322-4259-a8c6-94817c28b273",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "virginiaIndunil10/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1testInduniltestvirginiaany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "e122cdb8-3322-4259-a8c6-94817c28b273",
+    "openFiles": [
+      "48d388bd-c2f3-48af-bce2-11f879f57dcd"
+    ],
+    "currentFileId": "48d388bd-c2f3-48af-bce2-11f879f57dcd",
+    "resources": {
+      "apigusEast1testInduniltestvirginiaany": {
+        "name": "apigusEast1testInduniltestvirginiaany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "testIndunil",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "test/virginia",
+          "resourcePath": "/test/virginia",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "Test",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "virginiaIndunil10",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1568102377820
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "virginiaIndunil10",
+      "url": "https://github.com/Indunil1992/virginiaIndunil10"
+    }
+  }
+}
