@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "virginiaIndunil10/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed api\"});\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -35,7 +35,16 @@
             "resourceName": "apigusEast1testInduniltestvirginiaany",
             "config": {}
           }
-        ]
+        ],
+        "testCases": {
+          "90af3b39-e59f-4ebc-ac63-b3f5de0af62a": {
+            "id": "90af3b39-e59f-4ebc-ac63-b3f5de0af62a",
+            "name": "Test event",
+            "functionId": "48d388bd-c2f3-48af-bce2-11f879f57dcd",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "rootNode": "e122cdb8-3322-4259-a8c6-94817c28b273",
@@ -89,7 +98,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1568102377820
+    "lastSave": 1568102458498
   },
   "VCS_STATE": {
     "provider": "GitHub",
